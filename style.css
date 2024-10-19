@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  height: 100vh;
+} */
+
+.character-select{
+  display: flex;
+  max-width: 250px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 3px;
+}
+
+.character-container{
+ display: flex;
+ flex-direction: column;
+ gap: 3px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+img:hover{
+  opacity: 0.6;
+}
+
+.fighter{
+  border: 2px solid black;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+/* .character-container{
+  display: flex;
+  justify-content: center;
+} */
