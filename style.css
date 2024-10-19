@@ -100,13 +100,17 @@ h1, h2{
   color: white;
 }
 
-#player1-img, #player2-img{
+.player1-img, .player2-img{
   /* max-width: 50%; */
   text-align: center;
   margin: 0 auto;
   height: 80%;
 }
 
-#player2-img{
+.player2-img{
   transform: scaleX(-1);
+}
+
+.hidden{
+  display: none;
 }
