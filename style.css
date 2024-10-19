@@ -4,33 +4,60 @@
   box-sizing: border-box;
 }
 
-/* body{
+body{
   height: 100vh;
-} */
+  font-family: system-ui, sans-serif;
+  background-image: url(./stages/Title\ Screen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center,bottom;
+}
+
+.selection-container{
+  display: flex;
+}
 
 .character-select{
   display: flex;
   max-width: 250px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: row;
   margin: 0 auto;
   gap: 3px;
 }
 
-.character-container{
+.stage-select{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.stage{
+  width: 16%;
+}
+
+.character-container, .stage-container{
  display: flex;
  flex-direction: column;
  gap: 3px;
 }
 
-img{
+.character-container, .stage-container{
+  width: 50%;
+}
+
+img.fighter, img.stage{
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
   cursor: pointer;
 }
 
-img:hover{
+.fighter{
+  width: 35%;
+}
+
+img.fighter:hover, img.stage:hover{
   opacity: 0.6;
 }
 
@@ -40,9 +67,45 @@ img:hover{
 
 h1, h2{
   text-align: center;
+  color: orangered;
 }
 
-/* .character-container{
+.player-container{
   display: flex;
+  /* margin-top: 20rem; */
+}
+
+#player1-container, #player2-container{
+  width: 47.5%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-} */
+  text-align: center;
+}
+
+#versus{
+  width: 5%;
+}
+
+.versus{
+  flex-direction: column;
+  align-self: center;
+  line-height: 317px;
+}
+
+#player1-name, #player2-name{
+  align-self: center;
+  background-color: black;
+  color: white;
+}
+
+#player1-img, #player2-img{
+  /* max-width: 50%; */
+  text-align: center;
+  margin: 0 auto;
+  height: 80%;
+}
+
+#player2-img{
+  transform: scaleX(-1);
+}
