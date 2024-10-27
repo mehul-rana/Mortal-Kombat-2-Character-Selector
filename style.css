@@ -21,7 +21,6 @@ body{
 .character-select{
   display: flex;
   max-width: 250px;
-  /* flex-wrap: wrap; */
   flex-direction: row;
   margin: 0 auto;
   gap: 3px;
@@ -49,7 +48,6 @@ body{
 
 img.fighter, img.stage{
   display: block;
-  /* max-width: 100%; */
   height: auto;
   cursor: pointer;
 }
@@ -73,14 +71,10 @@ h1, h2{
 
 .player-container{
   display: flex;
-  /* margin-top: 20rem; */
 }
 
 #player1-container, #player2-container{
   width: 47.5%;
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center; */
   text-align: center;
 }
 
@@ -101,7 +95,6 @@ h1, h2{
 }
 
 .player1-img, .player2-img{
-  /* max-width: 50%; */
   text-align: center;
   margin: 0 auto;
   height: 80%;
