@@ -9,7 +9,6 @@ This is a simple project emulating the character select screen from Mortal Komba
 I used HTML and CSS to create and style the layout of this character select screen. There is a character select grid so you can simulate how the character selection works in the game. I've added two grids so each user can have their own selection screen. Everytime a character is selected (on either side), an animated gif of that character in their fighting stance is displayed. The user can also change the background to one of the many stages used in the game.
 
 ## Optimizations
-*(optional)*
 
 When I improve this project, I would add media queries so this can be displayed on different screen sizes and would focus on a mobile-first approach. I would then work on adding a way to implement the character select theme song to play just as it does in the actual game itself as well as minor aesthetic improvements. I would also work on making some adjustments to the layout.
 
