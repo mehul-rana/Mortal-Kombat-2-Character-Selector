@@ -1,4 +1,4 @@
-# My Awesome Project
+# Mortal Kombat 2 Character Selector
 
 This is a simple project emulating the character select screen from Mortal Kombat 2. I've included two character grids so each user can pick their own character and added a stage selection function towards the bottom that showcases the stages used in the game. All assets can be found here (https://www.mortalkombatwarehouse.com/mk2/).
 
